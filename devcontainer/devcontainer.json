@@ -1,0 +1,5 @@
+{
+  "image": "kalilinux/kali-rolling",
+  "postCreateCommand": "apt update && apt install -y kali-linux-headless curl git python3 python3-pip nodejs npm",
+  "remoteUser": "root"
+}
